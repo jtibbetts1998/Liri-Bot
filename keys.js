@@ -5,5 +5,10 @@ exports.spotify = {
   secret: process.env.SPOTIFY_SECRET
 };
 
+exports.omdb = {
+    key : process.env.SPOTIFY_ID,
+}
 
-var spotify = new Spotify(keys.spotify);
+exports.bands = {
+    appID : process.env.appID,
+}
