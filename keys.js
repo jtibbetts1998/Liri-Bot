@@ -6,7 +6,7 @@ exports.spotify = {
 };
 
 exports.omdb = {
-    key : process.env.SPOTIFY_ID,
+    key : process.env.apikey,
 }
 
 exports.bands = {
